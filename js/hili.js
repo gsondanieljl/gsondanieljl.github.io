@@ -64,6 +64,10 @@ const writeLetter = (dear, message, img1, img2) => {
 const handleDecode = (key) => {
     if (key) {
         writeLetter(decode(dear, key), decode(message, key), decode(img1, key), decode(img2, key));
+        setTimeout(() => {
+            const element = document.getElementById("logo");
+            element.scrollIntoView();
+        }, 500);
     }
 }
 
