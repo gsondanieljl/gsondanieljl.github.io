@@ -33,8 +33,7 @@ body {
 }
 
 .sub-content img {
-  max-width: 80%;
-  margin: 0 auto;
+  max-width: 100%;
   height: auto;
 }
 
