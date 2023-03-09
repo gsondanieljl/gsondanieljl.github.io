@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> HILI </title>
+    <!-- css style sheet -->
+    <link href="css/hili.css" rel="stylesheet">
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Javascript -->
+    <script src="js/hili.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="postcard">
+
+            <div class="navbar">
+                <h1 id="dear"></h1>
+                <img id="logo" class="logo" src="img/stamp.png" alt="logo">
+            </div>
+
+            <div class="content">
+                <div class="sub-content">
+                    <img id="img1" src="http://via.placeholder.com/640x360" alt="both">
+                    <img id="img2" src="http://via.placeholder.com/640x360" alt="both">
+                </div>
+                <p id="message"></p>
+                <div class="footer">
+                    <button id="decode" class="btn btn-primary" onclick="triggerDecode()">Descifrar</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

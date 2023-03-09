@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
+body {
+  background-color: #800020;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+.postcard {
+  overflow-y: auto;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f7f7f7;
+  border-radius: 2%;
+  box-shadow: .8em .8em 15px rgba(0, 0, 0, .3);
+  width: 90%;
+  height: 80%;
+  margin: 5% auto;
+  padding: 3%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.sub-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sub-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  height: 100px;
+}
+
+.btn {
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #800020;
+}
+
+#dear {
+  font-size: 50px;
+  margin: 0;
+}
+
+#message {
+  font-size: 35px;
+  width: 98%;
+  text-align: justify;
+}
+
+#decode {
+  width: 200px;
+}
+
+/* Medium screen devices (768px and lower) */
+@media only screen and (max-width: 1220px) {
+  #message {
+    font-size: 25px;
+  }
+
+  #decode {
+    width: 100%;
+  }
+
+  .sub-content {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
